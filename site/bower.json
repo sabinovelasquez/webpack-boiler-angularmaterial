@@ -6,7 +6,7 @@
     "Sabino Velásquez <sabinovelasquez@gmail.com> (http://sabino.cl)"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/sabinovelasquez/ceterisgroup",
+  "homepage": "https://github.com/sabinovelasquez/webpack-boilerplate",
   "ignore": [
     "**/.*",
     "node_modules",
