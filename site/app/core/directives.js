@@ -1,5 +1,5 @@
 export default ngModule => {
-  require('./main/header/header')(ngModule);
   require('./main/nav/nav')(ngModule);
-  require('./main/footer/footer')(ngModule);
+  require('./main/content/content')(ngModule);
+  require('./main/sidenav/sidenav')(ngModule);
 };
