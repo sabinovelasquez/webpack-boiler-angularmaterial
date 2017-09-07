@@ -3,7 +3,7 @@ export default ngModule => {
 
   ngModule.directive('mainHeader', function mainHeader() {
     return {
-      template: require('./header.jade'),
+      template: require('./header.pug'),
       scope: {},
       controllerAs: 'header',
       controller: function mainHeaderCtrl() {

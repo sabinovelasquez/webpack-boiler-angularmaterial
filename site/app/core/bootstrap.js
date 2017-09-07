@@ -3,13 +3,10 @@ require('./vendor')();
 const ngModule = angular.module('app', [
   'duScroll',
   'ngAnimate',
-  'ngParallax',
-  'ngResource',
   'ngSanitize',
   'ngTouch',
-  'ui.bootstrap',
+  'ngMaterial',
   'ui.router',
-  'ngMap',
 ]);
 
 require('./config')(ngModule);

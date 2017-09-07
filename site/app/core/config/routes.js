@@ -5,7 +5,7 @@ export default ngModule => {
       $stateProvider
       .state('main', {
         url: '/',
-        template: require('../main/main.jade'),
+        template: require('../main/main.pug'),
         controller: 'MainCtrl',
         controllerAs: 'main',
       });
