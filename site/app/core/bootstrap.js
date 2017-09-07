@@ -1,7 +1,6 @@
 require('./vendor')();
 
 const ngModule = angular.module('app', [
-  'duScroll',
   'ngAnimate',
   'ngSanitize',
   'ngTouch',
